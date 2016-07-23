@@ -1,0 +1,124 @@
+/*********************
+GENERAL
+*********************/
+body {
+  font-family:'Josefin Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*********************
+HEADING
+*********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 15px 0;
+  font-size: 2.75em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 0.8em
+}
+
+h2 {
+  font-size: 1.50em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/*********************
+Navigation
+*********************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+  
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}  
+
+/*********************
+COLORS
+*********************/
+  
+/* site body */    
+body {
+ background-color: #fff;
+ color: #999;
+}
+  
+/* green header */
+header {
+ background: #8fc0e0;
+ border-color: #DDECF6;
+}
+  
+/* nav background on mobile */
+nav {
+ background: #DDECF6;
+}
+  
+/* logo text */
+h1, h2 {
+ color: #fff;
+}
+  
+/* links */
+a {
+ color: #8fc0e0;
+}
+ 
+/* nav link */  
+nav a, nav a:visited {
+ color: #fff;  
+}
+    
+/* selected nav link */
+nav a.selected {
+ color: #2d74a4;
+    }
+
+    /* mouse over link */
+nav a:hover {
+    color: #919597;
+}
+
+
